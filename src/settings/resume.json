@@ -1,59 +1,47 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Joseph Mitchell",
+        "label": "Biomedical Engineer",
+        "email": "joseph.mitchell@uwaterloo.ca",
+        "phone": "(709) 571-5120",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Web",
+        "job1": "Biomedical Engineer",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "description": "Hello! I'm Joseph! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Angeles, Philippines.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://taniyow.vercel.app/",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "address": "64 Payette street",
+            "postalCode": "A1V 0B7",
+            "city": "Waterloo",
+            "country": "Canada",
+            "countryCode": "CA",
+            "region": "Ontario"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "joseph.mitchell@uwaterloo.ca",
+                "url": "mailto:joseph.mitchell@uwaterloo.ca",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "josephmitchell48",
+                "url": "https://www.linkedin.com/in/josephmitchell48",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "josephmitchell48",
+                "url": "https://github.com/josephmitchell48",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "JoeMitch#8323",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
             }

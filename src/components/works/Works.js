@@ -9,10 +9,8 @@ import './Works.css';
 
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import BeatSlasher from '../../assets/recentprojects/beatslasher.png';
+import Iso from '../../assets/recentprojects/ISOView.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -27,46 +25,29 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
+      title: 'Beat Slasher', 
+      description: `Developed a mobile rhythm game 
+      utilizing Unity 2D engine and C#. Co-designed original graphics, 
+      sprites, scripts, and prefabs.`,
+      alter: 'Beat Slasher',
+      image: `${BeatSlasher}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'Parkinson\'s disease detector', 
+      description: `Implemented and displayed a Parkinson's Disease Detector using Jupyter Notebook. 
+      Data analysis and maniuplation was handled through use of PANDAs and Random Forest classifiers
+       were implemented to achieve an accuracy score 93.8%`,
+      alter: 'Parkinson\'s dicease detector',
+      image: `${Portfolio}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
-    },
-    { 
-      id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
-    },
-    { 
-      id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
-      image: `${Lacalle}`,
+      title: 'Cathedral of Christ our Saviour 3D Model', 
+      description: `•		Utilized SolidWorks features such as circular patterns,
+       lofts, chamfers, and assemblies to recreate the Cathedral of Christ our Savour.`,
+      alter: 'Cathedral of Christ our Saviour 3D Model',
+      image: `${Iso}`,
     },
   ]);
 
