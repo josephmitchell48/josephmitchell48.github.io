@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/josephmitchell48.github.io/static/css/main.b03f6d20.css",
-    "main.js": "/josephmitchell48.github.io/static/js/main.81f4f9c4.js",
-    "static/js/333.ff23a92f.chunk.js": "/josephmitchell48.github.io/static/js/333.ff23a92f.chunk.js",
-    "static/media/ISOView.png": "/josephmitchell48.github.io/static/media/ISOView.3be5794cdea0e4de295a.png",
-    "static/media/beatslasher.png": "/josephmitchell48.github.io/static/media/beatslasher.6ad4e4e009b7c1fb1d46.png",
-    "static/media/react-portfolio.png": "/josephmitchell48.github.io/static/media/react-portfolio.27ccc3c63b51c9484d56.png",
-    "static/media/profile.png": "/josephmitchell48.github.io/static/media/profile.1c1d1e2ad76acd77ffa6.png",
-    "static/media/PuraJuniper-colour-print.png": "/josephmitchell48.github.io/static/media/PuraJuniper-colour-print.5bc2169123bd24c52190.png",
-    "static/media/BreatheSuite-Logo-1.png": "/josephmitchell48.github.io/static/media/BreatheSuite-Logo-1.bd7a8f63d67eb118a50d.png",
-    "static/media/INFN.svg": "/josephmitchell48.github.io/static/media/INFN.9e1c833d14fbed1a19da1b789aeb8438.svg",
-    "static/media/slick.svg": "/josephmitchell48.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/josephmitchell48.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "index.html": "/josephmitchell48.github.io/index.html",
-    "static/media/slick.ttf": "/josephmitchell48.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/josephmitchell48.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "main.b03f6d20.css.map": "/josephmitchell48.github.io/static/css/main.b03f6d20.css.map",
-    "main.81f4f9c4.js.map": "/josephmitchell48.github.io/static/js/main.81f4f9c4.js.map",
-    "333.ff23a92f.chunk.js.map": "/josephmitchell48.github.io/static/js/333.ff23a92f.chunk.js.map"
+    "main.css": "/static/css/main.a8cc3fa3.css",
+    "main.js": "/static/js/main.1b81b648.js",
+    "static/js/333.ff23a92f.chunk.js": "/static/js/333.ff23a92f.chunk.js",
+    "static/media/ISOView.png": "/static/media/ISOView.3be5794cdea0e4de295a.png",
+    "static/media/beatslasher.png": "/static/media/beatslasher.6ad4e4e009b7c1fb1d46.png",
+    "static/media/react-portfolio.png": "/static/media/react-portfolio.27ccc3c63b51c9484d56.png",
+    "static/media/profile.png": "/static/media/profile.1c1d1e2ad76acd77ffa6.png",
+    "static/media/PuraJuniper-colour-print.png": "/static/media/PuraJuniper-colour-print.5bc2169123bd24c52190.png",
+    "static/media/BreatheSuite-Logo-1.png": "/static/media/BreatheSuite-Logo-1.bd7a8f63d67eb118a50d.png",
+    "static/media/INFN.svg": "/static/media/INFN.9e1c833d14fbed1a19da1b789aeb8438.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/index.html",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.a8cc3fa3.css.map": "/static/css/main.a8cc3fa3.css.map",
+    "main.1b81b648.js.map": "/static/js/main.1b81b648.js.map",
+    "333.ff23a92f.chunk.js.map": "/static/js/333.ff23a92f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b03f6d20.css",
-    "static/js/main.81f4f9c4.js"
+    "static/css/main.a8cc3fa3.css",
+    "static/js/main.1b81b648.js"
   ]
 }
