@@ -1,9 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://josephmitchell48.github.io/josephmitchell48.github.io",
+  "homepage": "http://josephmitchell48.github.io/",
   "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
-  "repository": "https://github.com/josephmitchell48/josephmitchell48.github.io",
   "author": "Joseph Mitchell <joseph.mitchell@uwaterloo.ca>",
   "license": "MIT",
   "dependencies": {
