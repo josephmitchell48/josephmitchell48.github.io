@@ -25,7 +25,7 @@ export const SocialIcons = () => {
 
   const socialItems = Resume.basics.profiles.map((socialItem) => (
     <Link
-      href={socialItem.url}
+      href={ socialItem.network === "Resume" ? `${process.env.PUBLIC_URL}/Joseph_Mitchell_Resume.pdf`: socialItem.url}
       key={socialItem.network.toLowerCase()}
       target='_blank'
       rel='noopener noreferrer'

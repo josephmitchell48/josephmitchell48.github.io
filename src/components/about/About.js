@@ -19,11 +19,10 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const greetings = "Hello!";
+  const aboutme = `I'm ${FirstName} ${LastName}, a third year Biomedical Engineering student at the University of Waterloo. 
+                  I have experience working in web development, firmware engineering, and signal processing. 
+                  I enjoy learning new skills in a fast paced environment and I love solving new challenging problems.`;
 
   return (
     <section id="about">
@@ -45,10 +44,6 @@ export const About = () => {
             <p className="aboutme">
               {aboutme}
             </p>
-            <a href="#contact" className="contact-btn">
-              <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send me a message.</Typography>
-            </a>
           </div>
         </div>
       </Container>

@@ -1,0 +1,91 @@
+body {
+    font-size: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 1.875em;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+.card-container {
+    height: 400px;
+    width: 400px;
+    margin: 10% ;
+    position: relative;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+
+    &.flipped {
+        .front {
+            transform: rotateY(180deg);
+        }
+        .back {
+            transform: rotateY(0deg);
+        }
+    }
+    
+    .front, .back {
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        position: absolute;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        transition: transform ease 750ms;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.51);
+    }
+    
+    .front {
+        z-index: 2;
+        transform: rotateY(0deg);
+    }
+    
+    .back {
+        transform: rotateY(-180deg);
+        padding: 10%;
+    }
+    
+    .image-container {
+        position: relative;
+        height: 80%;
+
+
+        .company{
+            text-align: center;
+            height: 20%;
+        }
+
+        .card-image {
+
+            height: 60%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .title {
+            text-align: center;
+            height: 20%;
+        }
+    }
+
+    .main-area {
+        height: 100%;
+        .date, .read-more {
+            font-size: 20px;
+        }
+        .read-more {
+            position: relative;
+            text-align: right;
+        }
+    }
+}
