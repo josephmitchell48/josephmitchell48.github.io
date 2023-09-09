@@ -44,10 +44,6 @@ export const About = () => {
             <p className="aboutme">
               {aboutme}
             </p>
-            <a href="#contact" className="contact-btn">
-              <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send me a message.</Typography>
-            </a>
           </div>
         </div>
       </Container>

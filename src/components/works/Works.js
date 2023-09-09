@@ -1,74 +1,103 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
+import React from 'react';
 import { useState } from "react";
+import Slider from "react-slick";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "../content/TextDecrypt";
+import { BlogCard } from './card';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
-import './Works.css';
-
-// Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import BeatSlasher from '../../assets/recentprojects/beatslasher.png';
-import Iso from '../../assets/recentprojects/ISOView.png';
+import Infinera from '../../assets/work/INFN.svg';
+import BreatheSuite from '../../assets/work/BreatheSuite-Logo-1.png';
+import PuraJuniper from '../../assets/work/PuraJuniper-colour-print.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    maxWidth: '100vw',
-    marginTop: '3em',
-    marginBottom: "auto",
+    maxWidth: '80%',
   },
 }));
 
 export const Works = () => {
   const classes = useStyles();
-  const [projects, setProjects] = useState([
+  const settings = {
+    arrows: true,
+    centerMode: true,
+    slidesToShow: 3,
+    centerPadding: '0px',
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          slidesToShow: 1,
+          centerPadding: '0px',
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          slidesToShow: 1,
+          centerPadding: '0px',
+        }
+      }
+    ]
+  };
+
+  const [works, setWorks] = useState([
     { 
       id: 1,
-      title: 'Beat Slasher', 
-      description: `Developed a mobile rhythm game 
-      utilizing Unity 2D engine and C#. Co-designed original graphics, 
-      sprites, scripts, and prefabs.`,
-      alter: 'Beat Slasher',
-      image: `${BeatSlasher}`,
+      company: 'Infinera',
+      title: 'SDK ENGINEERING INTERN',
+      date: 'May 2023 - August 2023', 
+      description: ["Redesigned the command messaging system, introducing asynchronous communication capabilities across multiple microcontrollers.",
+      "Engineered comprehensive parent class, facilitating inheritance for numerous subclasses, significantly minimizing code redundancy.",
+      "Thoroughly documented all projects and developments to ensure seamless handovers and ease of reference for future development teams."],
+      image: `${Infinera}`,
     },
     { 
       id: 2,
-      title: 'Parkinson\'s disease detector', 
-      description: `Implemented and displayed a Parkinson's Disease Detector using Jupyter Notebook. 
-      Data analysis and maniuplation was handled through use of PANDAs and Random Forest classifiers
-       were implemented to achieve an accuracy score 93.8%`,
-      alter: 'Parkinson\'s dicease detector',
-      image: `${Portfolio}`,
+      company: 'BreatheSuite',
+      title: 'FIRMWARE ENGINEERING INTERN',
+      date: 'August 2022 - December 2022', 
+      description: ["Applied knowledge in digital signal processing including Fourier transforms, filtering, and noise reduction to improve inhalation classification model by 6-12%.", 
+      "Ported functions from Pythons Librosa library to the C programming language and implemented them in a real time operating system."],
+      image: `${BreatheSuite}`,
     },
     { 
       id: 3,
-      title: 'Cathedral of Christ our Saviour 3D Model', 
-      description: `•		Utilized SolidWorks features such as circular patterns,
-       lofts, chamfers, and assemblies to recreate the Cathedral of Christ our Savour.`,
-      alter: 'Cathedral of Christ our Saviour 3D Model',
-      image: `${Iso}`,
+      company: 'PuraJuniper',
+      title: 'PROJECT PLANNER',
+      date: 'April 2022 - September 2022', 
+      description: ["Pitched business opportunity for deploying app suite throughout Newfoundland and Labrador health authorities.",
+      "Facilitated meetings between PuraJuniper executives and local industry professionals leading to the development of a new major project."],
+      image: `${PuraJuniper}`,
     },
+    { 
+      id: 4,
+      company: 'PuraJuniper',
+      title: 'JUNIOR SOFTWARE DEVELOPER',
+      date: 'January 2022 - April 2022', 
+      description: ["Developed React-based applications through agile methodology to create and display clinical practice guidelines complying to FHIR standards and guidelines.",      
+      "Conducted multiple meetings to pitch new UI mock-ups created in Figma.",
+      "Represented JuniperCDS at the March 2022 Infoway Projectathon, completing over 8 tests related to interoperability and exchange of health data within Canada."],
+      image: `${PuraJuniper}`,
+    }
   ]);
 
   return (
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
-        {projects.map((project) => (
-          <div className="project" key={ project.id }>
-            <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
+        <Slider {...settings}>
+          {works.map((work) => (
+            <div className="work" key={ work.id }>
+               <BlogCard id = {work.id} title = {work.title} company = {work.company} 
+                          date = {work.date} description = {work.description} image ={work.image}/>
             </div>
-            <div className="__content_wrapper">
-              <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
-              </h3>
-              <p className="description">
-                { project.description }
-              </p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </Slider>
       </Container>
     </section>
   );

@@ -9,9 +9,9 @@
         "job1": "Biomedical Engineer",
         "job2": "Developer",
         "description": "Hello! I'm Joseph! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
+        "summary": "",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "url": "",
         "location": {
             "address": "64 Payette street",
             "postalCode": "A1V 0B7",
@@ -22,10 +22,10 @@
         },
         "profiles": [
             {
-                "network": "Google",
+                "network": "OutLook",
                 "username": "joseph.mitchell@uwaterloo.ca",
                 "url": "mailto:joseph.mitchell@uwaterloo.ca",
-                "x_icon": "fab fa-google"
+                "x_icon": "fab fa-microsoft"
             },
             {
                 "network": "LinkedIn",
@@ -44,6 +44,12 @@
                 "username": "JoeMitch#8323",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
+            },
+            {
+                "network": "Resume",
+                "username": "Resume",
+                "url": "{`${ResumePDF}`}",
+                "x_icon": "fas fa-file"
             }
         ]
     },
@@ -71,11 +77,11 @@
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
+            "institution": "University Of Waterloo",
+            "area": "Biomedical Engineering",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
+            "startDate": "2020-09-01",
+            "endDate": "2025-04-01",
             "gpa": "4.0",
             "courses": ["DB1101 - Basic SQL"]
         }
@@ -106,16 +112,8 @@
     ],
     "languages": [
         {
-            "language": "German",
-            "fluency": "Native speaker"
-        },
-        {
             "language": "English",
             "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
         }
     ],
     "interests": [
@@ -125,9 +123,6 @@
         }
     ],
     "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
-        }
+        {        }
     ]
 }
