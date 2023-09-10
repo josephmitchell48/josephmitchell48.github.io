@@ -1,5 +1,8 @@
 import React, { lazy } from "react";
 
+import 'matchmedia-polyfill';
+import 'matchmedia-polyfill/matchMedia.addListener';
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
 import { ThemeProvider } from "../components/theme/ThemeProvider";
@@ -8,7 +11,6 @@ import { logCredits } from "../utils/logCredits";
 
 import { Home } from "../pages/Home";
 
-// const Resume = lazy(() => import("../pages/Resume"));
 const PageNotFound = lazy(() => import("../pages/PageNotFound"));
 
 export const App = () => {
