@@ -7,8 +7,8 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import './Projects.css';
 
-import Portfolio from '../../assets/projects/react-portfolio.png';
 import BeatSlasher from '../../assets/projects/beatslasher.png';
+import Parkinsons from '../../assets/projects/ai-parkinsons.png';
 import Iso from '../../assets/projects/ISOView.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -29,6 +29,7 @@ export const Projects = () => {
       utilizing Unity 2D engine and C#. Co-designed original graphics, 
       sprites, scripts, and prefabs.`,
       alter: 'Beat Slasher',
+      imageID: 'BeatSlasher',
       image: `${BeatSlasher}`,
     },
     { 
@@ -38,7 +39,8 @@ export const Projects = () => {
       Data analysis and maniuplation was handled through use of PANDAs and Random Forest classifiers
        were implemented to achieve an accuracy score 93.8%`,
       alter: 'Parkinson\'s dicease detector',
-      image: `${Portfolio}`,
+      imageID: 'Parkinsons',
+      image: `${Parkinsons}`,
     },
     { 
       id: 3,
@@ -46,6 +48,7 @@ export const Projects = () => {
       description: `•		Utilized SolidWorks features such as circular patterns,
        lofts, chamfers, and assemblies to recreate the Cathedral of Christ our Savour.`,
       alter: 'Cathedral of Christ our Saviour 3D Model',
+      imageID: 'Cathedral',
       image: `${Iso}`,
     },
   ]);
@@ -56,7 +59,7 @@ export const Projects = () => {
         {projects.map((project) => (
           <div className="project" key={ project.id }>
             <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
+              <img id={ project.imageID } src={ project.image } alt={ project.alter }/>
             </div>
             <div className="__content_wrapper">
               <h3 className="title">

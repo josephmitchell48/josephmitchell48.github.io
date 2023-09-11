@@ -19,10 +19,15 @@
   height: 40em;
   display: flex;
   justify-content: center;
+  align-items: center;
+
 }
 .__img_wrapper > img {
   height: 100%;
   width: fit-content;
+}
+#Parkinsons{
+  height: 70%;
 }
 .__content_wrapper {
   width: 40%;

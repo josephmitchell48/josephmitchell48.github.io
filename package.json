@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://josephmitchell48.github.io/josephmitchell48.github.io",
+  "homepage": "http://josephmitchell48.github.io/",
   "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
   "author": "Joseph Mitchell <joseph.mitchell@uwaterloo.ca>",
   "license": "MIT",
@@ -35,7 +35,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
