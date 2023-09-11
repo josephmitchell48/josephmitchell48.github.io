@@ -7,6 +7,8 @@ import { BlogCard } from './card';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
+import './card.css';
+
 import Infinera from '../../assets/work/INFN.svg';
 import BreatheSuite from '../../assets/work/BreatheSuite-Logo-1.png';
 import PuraJuniper from '../../assets/work/PuraJuniper-colour-print.png';
@@ -14,6 +16,8 @@ import PuraJuniper from '../../assets/work/PuraJuniper-colour-print.png';
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '80%',
+    marginTop: '3em',
+    marginBottom: "auto"
   },
 }));
 
@@ -24,23 +28,28 @@ export const Works = () => {
     centerMode: true,
     slidesToShow: 3,
     centerPadding: '0px',
+    dots: true,
+
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: true,
+          arrows: false,
           centerMode: true,
           slidesToShow: 1,
-          centerPadding: '0px',
+          slidesToScroll: 1,
+          autoplay: true,
         }
       },
       {
         breakpoint: 480,
         settings: {
-          arrows: true,
+          arrows: false,
           centerMode: true,
           slidesToShow: 1,
-          centerPadding: '0px',
+          slidesToScroll: 1,
+          autoplay: false,
+
         }
       }
     ]
@@ -88,7 +97,7 @@ export const Works = () => {
   ]);
 
   return (
-    <section id="works">
+    <section id="works_wrapper">
       <Container component="main" className={classes.main} maxWidth="md">
         <Slider {...settings}>
           {works.map((work) => (

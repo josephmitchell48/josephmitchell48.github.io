@@ -25,7 +25,7 @@ export const About = () => {
                   I enjoy learning new skills in a fast paced environment and I love solving new challenging problems.`;
 
   return (
-    <section id="about">
+    <section id="about_wrapper">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"

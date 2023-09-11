@@ -45,7 +45,7 @@ export const Projects = () => {
     { 
       id: 3,
       title: 'Cathedral of Christ our Saviour 3D Model', 
-      description: `•		Utilized SolidWorks features such as circular patterns,
+      description: `Utilized SolidWorks features such as circular patterns,
        lofts, chamfers, and assemblies to recreate the Cathedral of Christ our Savour.`,
       alter: 'Cathedral of Christ our Saviour 3D Model',
       imageID: 'Cathedral',
@@ -54,7 +54,7 @@ export const Projects = () => {
   ]);
 
   return (
-    <section id="projects">
+    <section id="projects_wrapper">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
           <div className="project" key={ project.id }>
