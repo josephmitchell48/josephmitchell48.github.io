@@ -5,6 +5,9 @@ import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
 
+import './Content.css';
+
+
 const useStyles = makeStyles((theme) => ({
   main: {
     maxWidth: '100vw',
@@ -29,15 +32,17 @@ export const Content = () => {
 
   return (
     <Container component="main" className={classes.main} maxWidth="md">
-      <div className={classes.heading}>
-        <Typography variant="h5" component="h2">
-            <TextDecrypt text={`${FirstName} ${LastName}`} />
-        </Typography>
-        <Typography variant="h1" component="h1" className={classes.jobs}>
-            <TextDecrypt text={`${Resume.basics.job1} + `} />
-            <TextDecrypt text={`${Resume.basics.job2}`} />
-        </Typography>
-      </div>
+      <section id="intro_wrapper">
+        <div className= "intro">
+          <Typography variant="h5" component="h2">
+              <TextDecrypt text={`${FirstName} ${LastName}`} />
+          </Typography>
+          <Typography variant="h1" component="h1" className={classes.jobs}>
+              <TextDecrypt text={`${Resume.basics.job1} + `} />
+              <TextDecrypt text={`${Resume.basics.job2}`} />
+          </Typography>
+        </div>
+      </section>
     </Container>
   );
 };

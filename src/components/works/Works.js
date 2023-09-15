@@ -58,13 +58,12 @@ export const Works = () => {
   const [works, setWorks] = useState([
     { 
       id: 1,
-      company: 'Infinera',
-      title: 'SDK ENGINEERING INTERN',
-      date: 'May 2023 - August 2023', 
-      description: ["Redesigned the command messaging system, introducing asynchronous communication capabilities across multiple microcontrollers.",
-      "Engineered comprehensive parent class, facilitating inheritance for numerous subclasses, significantly minimizing code redundancy.",
-      "Thoroughly documented all projects and developments to ensure seamless handovers and ease of reference for future development teams."],
-      image: `${Infinera}`,
+      company: 'PuraJuniper',
+      title: 'PROJECT PLANNER',
+      date: 'April 2022 - September 2022', 
+      description: ["Pitched business opportunity for deploying app suite throughout Newfoundland and Labrador health authorities.",
+      "Facilitated meetings between PuraJuniper executives and local industry professionals leading to the development of a new major project."],
+      image: `${PuraJuniper}`,
     },
     { 
       id: 2,
@@ -78,22 +77,23 @@ export const Works = () => {
     { 
       id: 3,
       company: 'PuraJuniper',
-      title: 'PROJECT PLANNER',
-      date: 'April 2022 - September 2022', 
-      description: ["Pitched business opportunity for deploying app suite throughout Newfoundland and Labrador health authorities.",
-      "Facilitated meetings between PuraJuniper executives and local industry professionals leading to the development of a new major project."],
-      image: `${PuraJuniper}`,
-    },
-    { 
-      id: 4,
-      company: 'PuraJuniper',
       title: 'JUNIOR SOFTWARE DEVELOPER',
       date: 'January 2022 - April 2022', 
       description: ["Developed React-based applications through agile methodology to create and display clinical practice guidelines complying to FHIR standards and guidelines.",      
       "Conducted multiple meetings to pitch new UI mock-ups created in Figma.",
       "Represented JuniperCDS at the March 2022 Infoway Projectathon, completing over 8 tests related to interoperability and exchange of health data within Canada."],
       image: `${PuraJuniper}`,
-    }
+    },
+    { 
+      id: 4,
+      company: 'Infinera',
+      title: 'SDK ENGINEERING INTERN',
+      date: 'May 2023 - August 2023', 
+      description: ["Redesigned the command messaging system, introducing asynchronous communication capabilities across multiple microcontrollers.",
+      "Engineered comprehensive parent class, facilitating inheritance for numerous subclasses, significantly minimizing code redundancy.",
+      "Thoroughly documented all projects and developments to ensure seamless handovers and ease of reference for future development teams."],
+      image: `${Infinera}`,
+    },
   ]);
 
   return (

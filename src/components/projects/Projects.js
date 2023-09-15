@@ -7,6 +7,8 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import './Projects.css';
 
+import PLR from '../../assets/projects/PLR.png';
+import AEDFSM from '../../assets/projects/AEDFSM.png';
 import BeatSlasher from '../../assets/projects/beatslasher.png';
 import Parkinsons from '../../assets/projects/ai-parkinsons.png';
 import Iso from '../../assets/projects/ISOView.png';
@@ -24,6 +26,25 @@ export const Projects = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
+      title: 'Modelling Pupillary Light Reflex to Detect Intoxication', 
+      description: ` Researched and implemented state-space model of neural delay caused by intoxication.
+      Integrated neural delay into larger state-space system modeling pupillary light reflex.`,
+      alter: 'PLR',
+      imageID: 'PLR',
+      image: `${PLR}`,
+    },
+    { 
+      id: 2,
+      title: 'AED Finite State Machine', 
+      description: `Finite state machine simulation of an AED built with Arduino Uno. 
+      System currently works as a proof of concept, with future work needed to develop 
+      the algorithm responsible for classifying various heart rhythms.`,
+      alter: 'AEDFSM',
+      imageID: 'AEDFSM',
+      image: `${AEDFSM}`,
+    },
+    { 
+      id: 3,
       title: 'Beat Slasher', 
       description: `Developed a mobile rhythm game 
       utilizing Unity 2D engine and C#. Co-designed original graphics, 
@@ -33,7 +54,7 @@ export const Projects = () => {
       image: `${BeatSlasher}`,
     },
     { 
-      id: 2,
+      id: 4,
       title: 'Parkinson\'s disease detector', 
       description: `Implemented and displayed a Parkinson's Disease Detector using Jupyter Notebook. 
       Data analysis and maniuplation was handled through use of PANDAs and Random Forest classifiers
@@ -43,7 +64,7 @@ export const Projects = () => {
       image: `${Parkinsons}`,
     },
     { 
-      id: 3,
+      id: 5,
       title: 'Cathedral of Christ our Saviour 3D Model', 
       description: `Utilized SolidWorks features such as circular patterns,
        lofts, chamfers, and assemblies to recreate the Cathedral of Christ our Savour.`,

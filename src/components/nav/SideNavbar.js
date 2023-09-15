@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
-import { Typography } from "@material-ui/core";
 import { useState } from "react";
 
 import "./SideNavbar.css";
@@ -14,37 +13,19 @@ export const SideNavbar = () => {
       <a href="#" 
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
-      >
-        <Typography>
-          Home
-        </Typography>
-      </a>
-      <a href="#about" 
-        onClick={() => setActiveNav('#about')}
-        className={activeNav === '#about' ? 'active' : ''}
-      >
-        <Typography>
-          About
-        </Typography>
-      </a>
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
-      >
-        <Typography>
-          Work
-        </Typography>
-      </a>
-
-      <a href="#projects"
-        onClick={() => setActiveNav('#projects')}
-        className={activeNav === '#projects' ? 'active' : ''}
-      >
-        <Typography>
-          Projects
-        </Typography>
-      </a>
-
+      > Home </a>
+      <a href="#about_wrapper" 
+        onClick={() => setActiveNav('#about_wrapper')}
+        className={activeNav === '#about_wrapper' ? 'active' : ''}
+      >About </a>
+      <a href="#works_wrapper"
+        onClick={() => setActiveNav('#works_wrapper')}
+        className={activeNav === '#works_wrapper' ? 'active' : ''}
+      > Work </a>
+      <a href="#projects_wrapper"
+        onClick={() => setActiveNav('#projects_wrapper')}
+        className={activeNav === '#projects_wrapper' ? 'active' : ''}
+      > Projects </a>
     </nav>
   );
 };

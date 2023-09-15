@@ -33,6 +33,12 @@
 #Parkinsons{
   height: 70%;
 }
+#PLR{
+  height: 70%;
+}
+#AEDFSM{
+  height: 70%;
+}
 .__content_wrapper {
   width: 40%;
   justify-content: center;
@@ -44,6 +50,7 @@
   border: 1px solid rgba(255, 255, 255, 0.51);
 }
 .title {
+  text-align: center;
   font-size: 1.5rem;
 }
 .description {

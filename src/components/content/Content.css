@@ -1,0 +1,11 @@
+#intro_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.intro {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
