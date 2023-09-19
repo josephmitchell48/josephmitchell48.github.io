@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c2a667b.css",
-    "main.js": "/static/js/main.ea2b5795.js",
+    "main.css": "/static/css/main.e70c1511.css",
+    "main.js": "/static/js/main.4d275d61.js",
     "static/js/333.ff23a92f.chunk.js": "/static/js/333.ff23a92f.chunk.js",
     "static/media/ISOView.png": "/static/media/ISOView.3be5794cdea0e4de295a.png",
     "static/media/beatslasher.png": "/static/media/beatslasher.6ad4e4e009b7c1fb1d46.png",
+    "static/media/AEDFSM.png": "/static/media/AEDFSM.3d85b84aed0a2317da89.png",
     "static/media/profile.png": "/static/media/profile.1c1d1e2ad76acd77ffa6.png",
     "static/media/ai-parkinsons.png": "/static/media/ai-parkinsons.4ba62baa3f1515285b94.png",
+    "static/media/PLR.png": "/static/media/PLR.d2c5cc2a78a7fc7b98c7.png",
     "static/media/PuraJuniper-colour-print.png": "/static/media/PuraJuniper-colour-print.5bc2169123bd24c52190.png",
     "static/media/BreatheSuite-Logo-1.png": "/static/media/BreatheSuite-Logo-1.bd7a8f63d67eb118a50d.png",
     "static/media/INFN.svg": "/static/media/INFN.9e1c833d14fbed1a19da1b789aeb8438.svg",
@@ -15,12 +17,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.1c2a667b.css.map": "/static/css/main.1c2a667b.css.map",
-    "main.ea2b5795.js.map": "/static/js/main.ea2b5795.js.map",
+    "main.e70c1511.css.map": "/static/css/main.e70c1511.css.map",
+    "main.4d275d61.js.map": "/static/js/main.4d275d61.js.map",
     "333.ff23a92f.chunk.js.map": "/static/js/333.ff23a92f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c2a667b.css",
-    "static/js/main.ea2b5795.js"
+    "static/css/main.e70c1511.css",
+    "static/js/main.4d275d61.js"
   ]
 }
