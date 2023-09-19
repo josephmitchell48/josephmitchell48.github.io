@@ -1,7 +1,6 @@
 import React from "react";
 import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
 
@@ -35,11 +34,17 @@ export const Content = () => {
       <section id="intro_wrapper">
         <div className= "intro">
           <Typography variant="h5" component="h2">
-              <TextDecrypt text={`${FirstName} ${LastName}`} />
+            <p>
+              {`${FirstName} ${LastName}`}
+            </p>
           </Typography>
           <Typography variant="h1" component="h1" className={classes.jobs}>
-              <TextDecrypt text={`${Resume.basics.job1} + `} />
-              <TextDecrypt text={`${Resume.basics.job2}`} />
+            <p>
+              {`${Resume.basics.job1} + `}
+            </p>
+            <p>
+              {`${Resume.basics.job2}`}
+            </p>
           </Typography>
         </div>
       </section>

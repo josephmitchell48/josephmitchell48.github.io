@@ -3,7 +3,6 @@ import React from "react";
 import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "../content/TextDecrypt";
 
 import './Projects.css';
 
@@ -84,7 +83,7 @@ export const Projects = () => {
             </div>
             <div className="__content_wrapper">
               <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
+                { project.id + '. ' + project.title }
               </h3>
               <p className="description">
                 { project.description }

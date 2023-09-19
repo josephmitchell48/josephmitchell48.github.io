@@ -2,7 +2,6 @@
 import React from "react";
 import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "../content/TextDecrypt";
 import { FirstName, LastName } from "../../utils/getName";
 
 import './About.css';
@@ -39,7 +38,7 @@ export const About = () => {
           </div>
           <div className="_content_wrapper">
             <Typography component='h2' variant="h5">
-              <TextDecrypt text={`${greetings}`} />
+              <p>{greetings}</p>
             </Typography>
             <p className="aboutme">
               {aboutme}
