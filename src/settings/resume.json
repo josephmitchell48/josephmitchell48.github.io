@@ -48,7 +48,7 @@
             {
                 "network": "Resume",
                 "username": "Resume",
-                "url": "{`${ResumePDF}`}",
+                "url": "/Joseph_Mitchell_Resume.pdf",
                 "x_icon": "fas fa-file"
             }
         ]

@@ -32,7 +32,16 @@ export const Works = () => {
 
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1650,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 1024,
         settings: {
           arrows: false,
           centerMode: true,
@@ -41,17 +50,6 @@ export const Works = () => {
           autoplay: true,
         }
       },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: false,
-
-        }
-      }
     ]
   };
 

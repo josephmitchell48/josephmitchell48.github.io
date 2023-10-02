@@ -4,7 +4,7 @@ nav {
   flex-direction: row-reverse;
   transform-origin: top left;
   transform: rotate(-90deg) translateX(-100%);
-  top: 15%;
+  top: 10%;
   left: 1%;
   font-size: 1.8rem;
 }
