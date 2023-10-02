@@ -67,6 +67,7 @@
 }
 @media (max-width: 768px) {
   .__img_wrapper {
+    margin: 10px 0;
     width: 60vw;
     height: auto;
   }
