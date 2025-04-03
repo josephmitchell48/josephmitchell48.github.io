@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React, { lazy, Suspense } from "react";
 
 import 'matchmedia-polyfill';
 import 'matchmedia-polyfill/matchMedia.addListener';
@@ -21,11 +21,13 @@ export const App = () => {
         <CssBaseline />
         <Router>
           <HelmetMeta />
-          <Switch>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Switch>
               <Route path="/" exact component={Home} />
               {/* <Route path="/resume" component={Resume} /> */}
               <Route path="*" component={PageNotFound} />
-          </Switch>
+            </Switch>
+          </Suspense>
         </Router>
       </ThemeProvider>
     );
